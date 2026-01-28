@@ -8,6 +8,6 @@ ENV POSTGRES_USER=postgres
 ENV POSTGRES_PASSWORD=postgres
 ENV POSTGRES_DB=pdb
 
-xVOLUME /var/lib/postgresql/data
+VOLUME /var/lib/postgresql/data
 
 EXPOSE 5432
